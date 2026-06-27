@@ -29,10 +29,10 @@ const App = () => {
     <div>
       <Section1 users = {users} setsong={setsong}/>
       {song && (
-      <div className="fixed bottom-2 left-16 rounded-xl overflow-hidden z-20">
+      <div className="fixed bottom-2 left-10 rounded-xl overflow-hidden z-20">
         <iframe
           src={song}
-          width="450"
+          width="280"
           height="152"
           allow="autoplay; clipboard-write; encrypted-media"
         />
