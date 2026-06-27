@@ -6,7 +6,7 @@ const Leftcontent = () => {
   return (
     <div className = "flex flex-col justify-between h-auto lg:h-[88vh] w-1/4">
         <Herotext/>
-        <Arrow/>
+        {/* <Arrow/> */}
     </div>
   )
 }
