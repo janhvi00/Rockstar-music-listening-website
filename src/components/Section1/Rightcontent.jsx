@@ -3,7 +3,7 @@ import Rightcard from './Rightcard'
 
 const Rightcontent = (props) => {
   return (
-    <div id='right' className='h-full flex flex-col lg:flex-row rounded-4xl overflow-x-auto lg:flex-nowrap gap-10 pl-5 w-3/4'>
+    <div id='right' className='h-full flex flex-col lg:flex-row rounded-4xl lg:overflow-x-auto lg:flex-nowrap gap-10 pl-5 w-3/4'>
       {props.users.map((elem, idx) => (
   <Rightcard
     image={elem.image}
