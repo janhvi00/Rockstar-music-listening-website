@@ -3,7 +3,7 @@ import { ArrowRight } from 'lucide-react';
 
 const Rightcardcontent = (props) => {
   return (
-    <div className='text-white absolute top-0 left-0 h-full w-full p-6 lg:flex lg:flex-col lg:justify-between'>
+    <div className='text-white absolute top-0 left-0 h-full w-full p-6 flex flex-col justify-between'>
         <h2 className="p-2 bg-black rounded-full font-bold h-12 w-12 flex justify-center items-center text-xl">{props.idx+1}</h2>
         <div className="p-2 font-bold flex flex-col justify-between items-between ">
             <p className='mb-10 text-shadow-2xs' >{props.lyrics}</p>
